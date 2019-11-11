@@ -1,4 +1,4 @@
-# Forecasting API
+# Forecasting API Product
 
 # Markdown test (left column)
 
