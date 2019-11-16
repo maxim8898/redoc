@@ -14,7 +14,7 @@
     "description": {
       "$ref": "https://raw.githubusercontent.com/maxim8898/redoc/master/README.md"
     },
-    "title": "Forecasting API Description",
+    "title": "Forecasting API Some Description",
     "version": "1.3.5"
   },
   "host": "europewest.services.azureml.net:443",
