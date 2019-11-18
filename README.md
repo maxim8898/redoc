@@ -477,10 +477,6 @@ First, you need to download the free [Postman application](https://www.getpostma
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/82e6e5ef-40c3-4784-bf0f-5d0573c3b8c4)
 
-<a href="https://github.com/sieiieowoer/jens/blob/master/forecasting_nominalErrors.postman_collection.json" target="_blank"><img src="https://run.pstmn.io/button.svg" alt="Run forecasting in Postman"></a>
-
-
-
 ### Step 1: Setup environment
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
 
