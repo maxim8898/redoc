@@ -1,6 +1,7 @@
 swagger: '2.0'
 info:
-  description: The analytics forecasting component makes future prediction based on past and present trends. It uses supervised machine learning techniques to learn the relationship between variables (input) at hand and the variable (the target) we want to forecast. For instance, this could be the forecast of a production line or the prediction of a daily building energy consumption.
+  description:
+    $ref: 'https://raw.githubusercontent.com/maxim8898/redoc/master/README.md'
   title: Component forecasting
   version: 1.3.5
 host: 'europewest.services.azureml.net:443'
