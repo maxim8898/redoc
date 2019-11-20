@@ -55,7 +55,8 @@ paths:
       operationId: forecasting_getModelInformation_execute
       
       
-      summary: 'forecasting_getModelInformation: This service returns model information on an existing prediction model that is securely stored on the Schneider Electric platform.'
+      summary: Forecasting getModelInformation
+      description: This service returns model information on an existing prediction model that is securely stored on the Schneider Electric platform.
 
 
 
@@ -102,7 +103,12 @@ paths:
       security:
         - api_key: []
       operationId: forecasting_applyModel_execute
-      summary: 'forecasting_applyModel: The `applyModel` service can be used to apply an existing forecasting model to new data. A request-response example to consume the `applyModel` web service (in Swagger and non-Swagger format) can be seen below.'
+      
+      
+      summary: Forecasting applyModel
+      description: The `applyModel` service can be used to apply an existing forecasting model to new data. A request-response example to consume the `applyModel` web service (in Swagger and non-Swagger format) can be seen below.
+
+
   /5123d43dbcc247319abdf617182e4c36/execute:
     post:
       consumes:
@@ -146,8 +152,12 @@ paths:
       security:
         - api_key: []
       operationId: forecasting_createModel_execute
-      summary: |-
-        forecasting_createModel: The `createModel` web service creates a forecasting model. The created forecasting model uses information available from driver measurements and process parameters to model the relationship between the drivers and the target we wish to forecast. 
+
+
+      summary: Forecasting createModel 
+      description: The `createModel` web service creates a forecasting model. The created forecasting model uses information available from driver measurements and process parameters to model the relationship between the drivers and the target we wish to forecast.
+
+
 
         The principle of this service is the following:
 
@@ -201,8 +211,12 @@ paths:
       security:
         - api_key: []
       operationId: forecasting_updateModel_execute
+      
+      
       summary: Forecasting UpdateModel
       description: This service updates an existing model created with the `createModel` web service. The input should include the same variables as the ones used to create the already available prediction model. Outputs of this service include the updated model ID (whereas the updated model is created with past and updated data), and the same output information as provided in the `createModel` service.
+
+
 definitions:
   ExecutionInputs_forecasting_applyModel:
     properties:
