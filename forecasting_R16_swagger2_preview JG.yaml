@@ -158,7 +158,8 @@ paths:
 
 
       summary: Forecasting createModel 
-      description: The `createModel` web service creates a forecasting model. The created forecasting model uses information available from driver measurements and process parameters to model the relationship between the drivers and the target we wish to forecast.
+      description: |-
+        The `createModel` web service creates a forecasting model. The created forecasting model uses information available from driver measurements and process parameters to model the relationship between the drivers and the target we wish to forecast.
 
 
 
