@@ -5625,11 +5625,9 @@ definitions:
       std:
         description: Standard Deviation of the score
         format: double
-        type: number
       value:
         description: Score of the error statistic.
         format: double
-        type: number
       variable:
         description: Name of the error statistic.
         enum:
@@ -5663,11 +5661,9 @@ definitions:
       std:
         description: Standard Deviation of the score
         format: double
-        type: number
       value:
         description: Score of the error statistic.
         format: double
-        type: number
       variable:
         description: Name of the error statistic.
         format: 'enum[IQR, mean, stdev]'
@@ -5762,7 +5758,6 @@ definitions:
       value:
         description: Score of the regression metric.
         format: double
-        type: number
     required:
       - indicatorName
       - dataset
@@ -5780,7 +5775,6 @@ definitions:
       value:
         description: Score of the regression metric.
         format: double
-        type: number
     required:
       - dataset
       - indicatorName
@@ -5797,7 +5791,6 @@ definitions:
       value:
         description: Score of the regression metric.
         format: double
-        type: number
     required:
       - indicatorName
       - dataset
@@ -5810,10 +5803,8 @@ definitions:
         type: string
       nb_bootstrap:
         description: Number of generated boostrap samples.
-        type: integer
       nb_folds:
         description: Fold number in cross validation
-        type: integer
       scale:
         description: Applied scale to calculate confidence intervals.
         format: 'enum[Relative, Absolute]'
@@ -5821,11 +5812,9 @@ definitions:
       significance_level:
         description: Considered significance level.
         format: double
-        type: number
       std:
         description: Standard deviation of the botstrap samples.
         format: double
-        type: number
       tails:
         description: 'In the case of ''Both'', the complete distribution of prediction errors is considered. On the contrary, ''Positive'' (''Negative'') considered only the positive (negative) prediction error distribution.'
         format: 'enum[Positive, Negative, Both]'
@@ -5833,7 +5822,6 @@ definitions:
       value:
         description: Calculated confidence interval.
         format: double
-        type: number
     required:
       - scale
       - tails
@@ -5851,10 +5839,8 @@ definitions:
         type: string
       nb_bootstrap:
         description: Number of generated boostrap samples.
-        type: integer
       nb_folds:
         description: Fold number in cross validation
-        type: integer
       scale:
         description: Applied scale to calculate confidence intervals.
         enum:
@@ -5864,11 +5850,9 @@ definitions:
       significance_level:
         description: Considered significance level.
         format: double
-        type: number
       std:
         description: Standard deviation of the bootstrap samples.
         format: double
-        type: number
       tails:
         description: 'In the case of ''Both'', the complete distribution of prediction errors is considered. On the contrary, ''Positive'' (''Negative'') considered only the positive (negative) prediction error distribution.'
         enum:
@@ -5908,11 +5892,9 @@ definitions:
       significance_level:
         description: Considered significance level.
         format: double
-        type: number
       std:
         description: Standard deviation of the botstrap samples.
         format: double
-        type: number
       tails:
         description: 'In the case of ''Both'', the complete distribution of prediction errors is considered. On the contrary, ''Positive'' (''Negative'') considered only the positive (negative) prediction error distribution.'
         format: 'enum[Positive, Negative, Both]'
@@ -5920,7 +5902,6 @@ definitions:
       value:
         description: Calculated confidence interval.
         format: double
-        type: number
     required:
       - scale
       - tails
@@ -5939,77 +5920,62 @@ definitions:
         description: Attribute or predictor.
         example: 50.4
         format: double
-        type: number
       att02:
         description: Attribute or predictor.
         example: 25.93
         format: double
-        type: number
       att03:
         description: Attribute or predictor.
         example: 25.93
         format: double
-        type: number
       att04:
         description: Attribute or predictor.
         example: 47.4
         format: double
-        type: number
       att05:
         description: Attribute or predictor.
         example: 50.4
         format: double
-        type: number
       att06:
         description: Attribute or predictor.
         example: 25.93
         format: double
-        type: number
       att07:
         description: Attribute or predictor.
         example: 25.93
         format: double
-        type: number
       att08:
         description: Attribute or predictor.
         example: 47.8
         format: double
-        type: number
       att09:
         description: Attribute or predictor.
         example: 50.4
         format: double
-        type: number
       att10:
         description: Attribute or predictor.
         example: 25.93
         format: double
-        type: number
       att11:
         description: Attribute or predictor.
         example: 25.93
         format: double
-        type: number
       att12:
         description: Attribute or predictor.
         example: 50.4
         format: double
-        type: number
       att13:
         description: Attribute or predictor.
         example: 50.4
         format: double
-        type: number
       att14:
         description: Attribute or predictor.
         example: 50.4
         format: double
-        type: number
       att15:
         description: Attribute or predictor.
         example: 50.4
         format: double
-        type: number
       datetime:
         description: Timestamp for the measure in the current row. Must be given in ISO 8601 format.
         example: '2015-10-08T12:30:00.000+0200'
@@ -6019,7 +5985,6 @@ definitions:
         description: Variable to be forecasted by the prediction model.
         example: 47.1
         format: double
-        type: number
     required:
       - datetime
       - target
