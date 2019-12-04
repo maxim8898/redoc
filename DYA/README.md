@@ -1,6 +1,6 @@
 # Forecasting API
 
-<img src=".\content.png" style="zoom:67%;" />
+<img src="https://github.com/maxim8898/redoc/blob/master/DYA/content.png" style="zoom:67%;" />
 
 ---
 
