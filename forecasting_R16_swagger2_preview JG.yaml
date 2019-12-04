@@ -80,7 +80,6 @@ paths:
           description: Specify if the format of the inputs/outputs of the web service should be compact (no parameter) or verbose (format=swagger)
           enum:
             - swagger
-          default: 'swagger'
           in: query
           name: format
           required: false
