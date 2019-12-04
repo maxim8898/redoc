@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   description:
-    $ref: https://raw.githubusercontent.com/maxim8898/redoc/master/README.md
+    $ref: https://raw.githubusercontent.com/maxim8898/redoc/master/DYA/README.md
   title: Component forecasting
   version: 1.3.5
 host: 'europewest.services.azureml.net:443'
