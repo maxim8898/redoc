@@ -1,6 +1,6 @@
 # Forecasting API
 
-<img src="https://github.com/maxim8898/redoc/blob/master/DYA/content.png" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/maxim8898/redoc/master/DYA/content.png" style="zoom:67%;" />
 
 ---
 
@@ -28,7 +28,7 @@ Update an existing model with actual data (updateModel).
 Get information on an existing model (getModelInformation).
 
 ## How it works
-![](.\Forecasting_Principles.jpg)
+![](https://raw.githubusercontent.com/maxim8898/redoc/master/DYA/Forecasting_Principles.jpg)
 
 ## Hands-on application
 
@@ -36,7 +36,7 @@ Take the tour and experiment on your own data prior to any development through o
 
 https://try-analytics-se.azurewebsites.net/forecasting
 
-![](.\MicroApp.png)
+![](https://raw.githubusercontent.com/maxim8898/redoc/master/DYA/MicroApp.png)
 
 
 
