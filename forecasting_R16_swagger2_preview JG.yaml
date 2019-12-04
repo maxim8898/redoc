@@ -80,6 +80,7 @@ paths:
           description: Specify if the format of the inputs/outputs of the web service should be compact (no parameter) or verbose (format=swagger)
           enum:
             - swagger
+          default: 'swagger'
           in: query
           name: format
           required: false
@@ -87,7 +88,7 @@ paths:
         - description: Specify if the format of the output of the web service should be more verbose (detailed=true)
           enum:
             - true
-          default: true
+          default: 'true'
           in: query
           name: detailed
           required: false
@@ -157,8 +158,7 @@ paths:
 
 
       summary: Forecasting createModel 
-      description: |-
-        The `createModel` web service creates a forecasting model. The created forecasting model uses information available from driver measurements and process parameters to model the relationship between the drivers and the target we wish to forecast.
+      description: The `createModel` web service creates a forecasting model. The created forecasting model uses information available from driver measurements and process parameters to model the relationship between the drivers and the target we wish to forecast.
 
 
 
@@ -6167,3 +6167,4 @@ securityDefinitions:
     name: Authorization
     type: apiKey
 x-components: {}
+
