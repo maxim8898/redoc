@@ -1,4 +1,4 @@
-# Forecasting API
+# Forecasting API API API
 
 <img src="https://raw.githubusercontent.com/maxim8898/redoc/master/DYA/content.png" style="zoom:67%;" />
 
