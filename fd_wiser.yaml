@@ -1,6 +1,7 @@
 swagger: '2.0'
 info:
   description: 'To fully use this API, you must first login using this provider'
+    "$ref": "https://raw.githubusercontent.com/ueshin/apache-spark/master/README.md"
   version: v20150608 (build 2.8.0-SNAPSHOT)
   title: Wiser Datawarehouse public API documentation
 host: se-exchange-pre-prod-sandbox.apigee.net
