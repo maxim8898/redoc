@@ -1,12 +1,9 @@
-<img src="https://raw.githubusercontent.com/SE-Analytics-Team/public-images/master/forecasting_api/content.png" style="zoom:67%;" />
-
----
-
 # Overview
 
 <PullRight>
 This part will appear in the right pane.
 </PullRight>
+<img src="https://raw.githubusercontent.com/SE-Analytics-Team/public-images/master/forecasting_api/content.png" style="zoom:67%;" />
 
 ## API overview and usage
 
