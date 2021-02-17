@@ -4,7 +4,9 @@
 
 # Overview
 
-<PullRight>Hello from right panel</PullRight>
+<PullRight>
+This part will appear in the right pane.
+</PullRight>
 
 ## API overview and usage
 
