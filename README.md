@@ -4,6 +4,8 @@
 
 # Overview
 
+<PullRight>Hello from right panel</PullRight>
+
 ## API overview and usage
 
 This document explain the usage of the `Forecasting` API.
